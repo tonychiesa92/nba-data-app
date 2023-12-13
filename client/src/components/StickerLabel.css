@@ -1,0 +1,24 @@
+/* StickerLabel.css */
+
+.sticker-label-container {
+  position: relative;
+  width: 100%;
+  background-color: #ffcc00;
+  color: #333;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the text */
+  margin-bottom: 20px; /* Add margin for separation */
+}
+
+.sticker-title {
+  margin: 0;
+  font-size: 2.5em; /* Use relative font size for responsiveness */
+  font-weight: bold;
+}
+
+.sticker-description {
+  margin: 0;
+  font-size: 1.5em; /* Use relative font size for responsiveness */
+}

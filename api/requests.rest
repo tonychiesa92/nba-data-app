@@ -1,0 +1,24 @@
+GET http://localhost:3001/wins
+
+###
+
+GET http://localhost:3001/skills
+
+
+
+###
+
+POST http://localhost:3001/win/new
+Content-Type: application/json
+
+{
+    "year_id": "$$$$1111!"
+}
+
+###
+
+DELETE http://localhost:3001/win/delete/6406b9dc8aaccb3f00c78916
+
+
+###
+PUT http://localhost:3001/win/complete/6406b9dc8aaccb3f00c78916
