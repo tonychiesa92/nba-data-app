@@ -4,13 +4,14 @@ frontend:
     preBuild:
       commands:
         - npm ci
+        - npm start
     # IMPORTANT - Please verify your build commands
     build:
       commands: []
   artifacts:
-    baseDirectory: dist
+    baseDirectory: ./client
     files:
-      - '**/nba-data-app*'
+      - '**/*'
   cache:
     paths:
       - node_modules/**/*
